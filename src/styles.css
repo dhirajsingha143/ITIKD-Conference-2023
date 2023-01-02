@@ -1,0 +1,45 @@
+/* Default styles for the whole site */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: var(--black);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.padding-x {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contianer {
+  max-width: 4000px;
+  margin: 0 auto;
+}
+
+:root {
+  --black: #272a31;
+  --white: #d3d3d3;
+  --orange: #ec5242;
+}
+
+/* Navigation-section*/
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
