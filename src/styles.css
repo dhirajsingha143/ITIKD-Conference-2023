@@ -43,3 +43,67 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+
+/* Hamburger menu for mobile */
+.nav-container .logo-container .fa-bars {
+  font-size: 2rem;
+}
+
+.nav-container .logo-container .fa-bars.on-of {
+  display: none;
+}
+
+.nav-container .logo-container .fa-x {
+  display: none;
+}
+
+.nav-container .logo-container .fa-x.on-of {
+  position: fixed;
+  display: flex;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  padding: 1rem 0 0 1rem;
+}
+
+.nav-logo {
+  display: none;
+}
+
+/* nav-links for desktop */
+.nav-link-container {
+  display: none;
+}
+
+.nav-link-container.on-of {
+  margin: -16px;
+  padding-top: 30px;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  background-image: url(https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.nav-link {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: var(--orange);
+}
