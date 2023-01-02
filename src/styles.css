@@ -299,3 +299,57 @@ body {
   align-items: center;
   gap: 30px;
 }
+
+/*---------------About-Page--------*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+}
+
+.about-title {
+  text-align: center;
+  margin: 1rem 0 0 0;
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.about-topic {
+  text-align: center;
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: transparent;
+  background-image: linear-gradient(to bottom, var(--orange), var(--black));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.about-info {
+  text-align: center;
+  margin-top: 0rem;
+  padding: 0 1rem 0 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(248, 247, 247);
+  padding: 10px;
+}
+
+.about-contact {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.about-email {
+  text-align: center;
+}
+
+.about-email a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+}
