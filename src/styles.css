@@ -353,3 +353,39 @@ body {
   color: var(--black);
   font-weight: 600;
 }
+
+.about-logo-section {
+  background-color: white;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-headline {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.about-content {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-logo-img {
+  height: 100px;
+  width: 320px;
+  padding: 1rem;
+  background-color: whitesmoke;
+  margin-top: 1rem;
+  border: 1px solid var(--white);
+}
