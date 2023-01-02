@@ -1,7 +1,7 @@
 // Mobile-menu
 const menu = document.querySelector('.nav-link-container');
 const menuBtn = document.querySelector('.fa-bars');
-const closeBtn = document.querySelector('.fa-x')
+const closeBtn = document.querySelector('.fa-x');
 const link = document.querySelector('.nav-link');
 function Menu() {
   menu.classList.toggle('on-of');
