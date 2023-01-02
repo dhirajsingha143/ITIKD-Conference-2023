@@ -8,6 +8,6 @@ function Menu() {
   menuBtn.classList.toggle('on-of');
   closeBtn.classList.toggle('on-of');
 }
-menuBtn.addEventListener('click',Menu);
-closeBtn.addEventListener('click',Menu);
-link.addEventListener('click',Menu);
+menuBtn.addEventListener('click', Menu);
+closeBtn.addEventListener('click', Menu);
+link.addEventListener('click', Menu);
