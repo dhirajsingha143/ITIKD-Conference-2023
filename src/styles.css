@@ -170,7 +170,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(image/pattern.png);
+  background-image: url(/image/pattern.png);
   background-color: var(--black);
   color: white;
 }
@@ -239,6 +239,15 @@ body {
   color: white;
   padding: 15px;
   border: 0;
+}
+
+/* Feature-speakers-section */
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Partner-section */
