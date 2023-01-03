@@ -531,10 +531,11 @@ body {
 
   /* Hamburger menu */
   .nav-container {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .nav-container .logo-container {
     display: none;
   }
