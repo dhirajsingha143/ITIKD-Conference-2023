@@ -12,7 +12,7 @@ menuBtn.addEventListener('click', Menu);
 closeBtn.addEventListener('click', Menu);
 link.addEventListener('click', Menu);
 
-//Load Featured Speakers dynamically
+// Load Featured Speakers dynamically
 
 function loadSpeakers(listSpeaker) {
   const sectionSpeaker = document.getElementById('speaker');
@@ -66,7 +66,7 @@ function loadSpeakers(listSpeaker) {
     //  p.speaker-info
 
     containerForSpeaker.append(speakerList);
-  })
+  });
 }
 
 const listSpeaker = [
@@ -81,7 +81,7 @@ const listSpeaker = [
   },
   {
     name: 'Atul Gawande', Qualification: 'Writer, Public health researcher', info: "He directed one of the three committees of the Clinton administration's Task Force on National Health Care Reform", image: 'image/speaker-2.png',
-  }
+  },
 ];
 
 loadSpeakers(listSpeaker);
