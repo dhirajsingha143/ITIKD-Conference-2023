@@ -45,6 +45,10 @@ body {
   height: 4rem;
 }
 
+.social-connection {
+  display: none;
+}
+
 /* Hamburger menu for mobile */
 .nav-container .logo-container .fa-bars {
   font-size: 2rem;
@@ -533,7 +537,7 @@ body {
     margin: 0 auto;
   }
 
-  /* Hamburger menu */
+  /* Navigation menu */
   .nav-container {
     display: flex;
     justify-content: center;
@@ -542,6 +546,26 @@ body {
 
   .nav-container .logo-container {
     display: none;
+  }
+
+  .social-connection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+    background-color: var(--black);
+    margin: 0;
+  }
+
+  .social-connection .social-container {
+    display:flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    cursor: pointer;
   }
 
   .nav-link-container {
