@@ -718,6 +718,11 @@ body {
     justify-content: space-around;
   }
 
+  .fc-about {
+    background-color: var(--black);
+    color: white;
+  }
+
   /* About-Page */
 
   .about {
@@ -778,12 +783,7 @@ body {
     padding-bottom: 2rem;
   }
 
-  .partner {
+  .about-partner {
     display: none;
-  }
-
-  .footer-container {
-    background-color: var(--black);
-    color: white;
   }
 }
