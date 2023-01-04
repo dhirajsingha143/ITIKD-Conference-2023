@@ -31,7 +31,7 @@
 
 This is a Conference Website, regarding ITIKD (IT Inovation and Knowledge Discovery) 2023. This site showcase the conference details, its past accomplishments and key guest, also sponsoring partners.
 
-Here is a [**presentation video**](#).
+Here is a [**presentation video**](https://www.loom.com/share/c8027079b55c4d30955e8b9a991b1b3b).
 
 ## 🛠 Built With <a name="built-with"></a>
 
