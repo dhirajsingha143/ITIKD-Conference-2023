@@ -559,7 +559,7 @@ body {
   }
 
   .social-connection .social-container {
-    display:flex;
+    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -605,6 +605,15 @@ body {
   .nav-link a {
     text-decoration: none;
     color: var(--black);
+  }
+
+  .about-email a {
+    color: var(--black);
+    text-decoration: none;
+  }
+
+  .nav-link a:hover {
+    color: var(--orange);
   }
 
   .nav-logo {
@@ -749,11 +758,6 @@ body {
     text-align: center;
     padding-bottom: 7rem;
     font-weight: 600;
-  }
-
-  .about-email a {
-    color: var(--black);
-    text-decoration: none;
   }
 
   .about-headline {

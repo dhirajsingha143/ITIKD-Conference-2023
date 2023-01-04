@@ -74,19 +74,19 @@ const listSpeaker = [
     name: 'El Sayed M. El Alfy', Qualification: 'Professor at King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia.', info: 'He has accumulated over 25 years of academic and industrial experience. His research interests include Intelligent Systems and Computational Intelligence.', image: 'image/speaker-1.png',
   },
   {
-    name: 'Tatiana Kalganova', Qualification: 'BSc (Hons), PhD, is a Professor of Intelligent Systems at Brunel.', info: "She has over 25 years of experience in design and implementation of applied Intelligent Systems.", image: 'image/speaker-2.png',
+    name: 'Tatiana Kalganova', Qualification: 'BSc (Hons), PhD, is a Professor of Intelligent Systems at Brunel.', info: 'She has over 25 years of experience in design and implementation of applied Intelligent Systems.', image: 'image/speaker-2.png',
   },
   {
     name: 'Helen D. Karatza', Qualification: 'Senior member of IEEE, ACM, SCS, is a Professor of Informatics at the Aristotle University, Greece.', info: 'Her research interests include cloud, fog and mist computing, energy efficiency, fault tolerance, scheduling algorithms and real-time distributed systems.', image: 'image/speaker-3.png',
   },
   {
-    name: 'Aisha Al Haram', Qualification: 'Work at National Space Science Agency', info: "A Bahraini scientist working at the NSSA, who has achieved a lot and published many articles in space sciences.", image: 'image/speaker-4.png',
+    name: 'Aisha Al Haram', Qualification: 'Work at National Space Science Agency', info: 'A Bahraini scientist working at the NSSA, who has achieved a lot and published many articles in space sciences.', image: 'image/speaker-4.png',
   },
   {
     name: 'Mohamed Buallay', Qualification: 'Data Scientist and Google Developer Expert', info: "He's one of the best young speakers in the region in the following areas: Artificial Intelligence, Data Science, Machine Learning, and Deep learning.", image: 'image/speaker-5.png',
   },
   {
-    name: 'Ishika Neogi', Qualification: 'PhD, She is a Professor of Biomedical Science at Queen Mary University of London', info: "Youngest international speaker in the field of cancer translation. Current research projects focus on integration with clinical data, research, particularly for breast cancer.", image: 'image/speaker-6.png',
+    name: 'Ishika Neogi', Qualification: 'PhD, She is a Professor of Biomedical Science at Queen Mary University of London', info: 'Youngest international speaker in the field of cancer translation. Current research projects focus on integration with clinical data, research, particularly for breast cancer.', image: 'image/speaker-6.png',
   },
 ];
 
