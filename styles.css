@@ -694,6 +694,15 @@ body {
     gap: 1rem;
   }
 
+  .speaker-ul-container .speaker-list .speaker-info-container .speaker-qualification {
+    font-size: 13px;
+    max-height: 35px;
+  }
+
+  .speaker-ul-container .speaker-list .speaker-info-container .speaker-info {
+    font-size: 12px;
+  }
+
   /* Footer-section */
 
   .footer-container {
