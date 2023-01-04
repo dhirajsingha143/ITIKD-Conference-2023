@@ -201,6 +201,10 @@ body {
   margin-top: 1rem;
 }
 
+.event-detail-list:hover {
+  border: 1px solid white;
+}
+
 .event-detail-list .event-icon {
   min-width: 75px;
   height: 112px;
