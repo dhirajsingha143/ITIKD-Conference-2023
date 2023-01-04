@@ -31,6 +31,8 @@
 
 This is a Conference Website, regarding ITIKD (IT Inovation and Knowledge Discovery) 2023. This site showcase the conference details, its past accomplishments and key guest, also sponsoring partners.
 
+Here is a [**presentation video**](https://www.loom.com/share/c8027079b55c4d30955e8b9a991b1b3b).
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -131,10 +133,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-🙏 Acknowledgments
-Give credit to everyone who inspired your codebase.
-
-I appreciate Microverse for providing the learning resources for this exercise, and my coding partners for helping me out when I ran into problems.
+I appreciate Microverse for providing the learning resources for this exercise, and I would like to thank [Cindy Shin](https://www.behance.net/adagio07) who is the original author for this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015?moduleId=192118207&action=moodboard).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,6 +141,6 @@ I appreciate Microverse for providing the learning resources for this exercise, 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

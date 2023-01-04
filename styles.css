@@ -45,6 +45,10 @@ body {
   height: 4rem;
 }
 
+.social-connection {
+  display: none;
+}
+
 /* Hamburger menu for mobile */
 .nav-container .logo-container .fa-bars {
   font-size: 2rem;
@@ -199,6 +203,10 @@ body {
   padding: 0;
   background-color: rgb(255, 255, 255, 0.1);
   margin-top: 1rem;
+}
+
+.event-detail-list:hover {
+  border: 1px solid white;
 }
 
 .event-detail-list .event-icon {
@@ -529,7 +537,7 @@ body {
     margin: 0 auto;
   }
 
-  /* Hamburger menu */
+  /* Navigation menu */
   .nav-container {
     display: flex;
     justify-content: center;
@@ -538,6 +546,26 @@ body {
 
   .nav-container .logo-container {
     display: none;
+  }
+
+  .social-connection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+    background-color: var(--black);
+    margin: 0;
+  }
+
+  .social-connection .social-container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    cursor: pointer;
   }
 
   .nav-link-container {
@@ -577,6 +605,15 @@ body {
   .nav-link a {
     text-decoration: none;
     color: var(--black);
+  }
+
+  .about-email a {
+    color: var(--black);
+    text-decoration: none;
+  }
+
+  .nav-link a:hover {
+    color: var(--orange);
   }
 
   .nav-logo {
@@ -666,10 +703,24 @@ body {
     gap: 1rem;
   }
 
+  .speaker-ul-container .speaker-list .speaker-info-container .speaker-qualification {
+    font-size: 13px;
+    max-height: 35px;
+  }
+
+  .speaker-ul-container .speaker-list .speaker-info-container .speaker-info {
+    font-size: 12px;
+  }
+
   /* Footer-section */
 
   .footer-container {
     justify-content: space-around;
+  }
+
+  .fc-about {
+    background-color: var(--black);
+    color: white;
   }
 
   /* About-Page */
@@ -714,11 +765,6 @@ body {
     font-weight: 600;
   }
 
-  .about-email a {
-    color: var(--black);
-    text-decoration: none;
-  }
-
   .about-headline {
     font-size: 2rem;
   }
@@ -734,5 +780,10 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .about-partner {
+    display: none;
   }
 }
