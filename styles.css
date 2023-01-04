@@ -775,5 +775,15 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer-container {
+    background-color: var(--black);
+    color: white;
   }
 }
